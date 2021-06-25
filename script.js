@@ -2,7 +2,6 @@ import imageDetails from "./items.js";
 
 let currentImageId = 0;
 
-//replace currentImage by newImage
 const updateDisplay = function (newImageId) {
   let list = document.querySelector(".imageList");
 
